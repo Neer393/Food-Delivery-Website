@@ -1,0 +1,66 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    margin:auto;
+}
+body #home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+    padding:20px 20px 20px;
+}
+body #home::before{
+    content: "";
+    height: 435px;
+    width:100%;
+}
+body #home p{
+    font-size: 13px;
+}
+body #home h1{
+    padding: 0rem;
+    font-size: 1.5rem;
+}
+body #home .btn3{
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+body .services{
+    margin:32px 5px 1rem 5px;
+}
+body .services .container{
+    flex-direction: column;
+    margin:10px 0px 34px 0px;
+}
+body .services .container #card-1,body .services .container #card-2,body .services .container #card-3{
+    margin:1rem 10px 1rem 10px;
+    transition-property: var(transform);
+    transition-duration: 500ms;
+    transition-delay: 0ms;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+body .services .container #card-1:hover,body .services .container #card-2:hover,body .services .container #card-3:hover{
+    transform:translateY(0px);
+}
+
+.container2{
+    flex-direction: column;
+}
+.dabba{
+    flex-direction: column;
+}
+
+.copyright{
+    display: block;
+    margin:auto;
+}

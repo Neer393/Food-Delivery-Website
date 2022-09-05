@@ -1,0 +1,286 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#navbar {
+    display: flex;
+    position: relative;
+    top: 0;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+#navbar::before {
+    content: "";
+    background-color: gray;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+#logo {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    margin: 0.5rem 1rem;
+    height: 4rem;
+    border-radius: 100rem;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 0.1rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.right {
+    display: block;
+    margin-left: auto;
+}
+
+#btn1 {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+#btn2 {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+#btn1:hover,
+#btn2:hover {
+    opacity: 0.8;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    padding: 50px 200px 10px;
+}
+
+#home::before {
+    content: "";
+    background: url('images/all.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 510px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#home h1 {
+    font-family: 'Bree Serif', serif;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3.8rem;
+    padding: 0.75rem;
+}
+
+#home p {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.btn3 {
+    margin: 1rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-color: black;
+    color: black;
+    background-color: lightgray;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+    opacity: 0.8;
+}
+
+.btn3:hover {
+    opacity: 1;
+}
+
+h1.services1 {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.services {
+    border: 2px solid brown;
+    margin: 32px 2rem 1rem 2rem;
+    padding-top: 1rem;
+    background-color: lightyellow;
+}
+
+.container {
+    display: flex;
+    margin: 34px;
+}
+
+.container img {
+    max-width: 250px;
+    max-height: 250px;
+    height: 75%;
+    width: 80%;
+}
+
+#card-1,
+#card-2,
+#card-3 {
+    text-align: center;
+    height: auto;
+    background-color: white;
+    padding: 1.5rem 1rem 1rem 1rem;
+    border: 1px solid black;
+    border-radius: 28px;
+    box-shadow: 4px 4px 5px black;
+    margin: 0rem 1rem;
+    transition-property: var(transform);
+    transition-duration: 500ms;
+    transition-delay: 0ms;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+#card-1:hover,
+#card-2:hover,
+#card-3:hover {
+    transform: translateY(-25px);
+}
+
+.subheading {
+    font-family: 'Bree Serif', serif;
+}
+
+.clients {
+    margin: 1rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.clients h1 {
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#client-2 img {
+    height: 100px;
+    width: 100px;
+    margin: 0.5rem 1rem 1rem 1rem;
+    align-self: center;
+    text-align: center;
+}
+
+#client-4 img {
+    height: 100px;
+    margin: 1rem;
+    align-self: center;
+    text-align: center;
+}
+
+#client-1 img {
+    height: 99px;
+    margin: 1rem;
+    align-self: center;
+    text-align: center;
+}
+
+#client-3 img {
+    height: 46px;
+    margin: 1rem;
+    align-self: center;
+    text-align: center;
+}
+
+.contact {
+    background-color: lightblue;
+}
+
+.dabba{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contactus {
+    display: block;
+    justify-self: left;
+    font-size: 1rem;
+    padding: 5px 0px;
+}
+
+.copyright {
+    display: block;
+    margin: auto;
+    justify-self: center;
+    padding: 5px 0px;
+}
+
+.copyright h2{
+    font-size: 0.8rem;
+}
+
+.logos {
+    display: flex;
+    padding: 5px 0px;
+}
+
+footer i {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
